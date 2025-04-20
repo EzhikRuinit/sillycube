@@ -1,0 +1,1 @@
+gcc cube.c -o cube -lglfw -lGL -lm -ldl
