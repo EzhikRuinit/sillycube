@@ -7,7 +7,8 @@ preview of the program:
 ## how to build?
 run 
 ```bash 
-./compile.sh```
+./compile.sh
+```
 
 you can launch the cube maunally by
 ```
