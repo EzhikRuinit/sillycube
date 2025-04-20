@@ -124,7 +124,7 @@ int main(int argc, char** argv) {
     GLuint tex = load_texture(image_path);
 
     glEnable(GL_DEPTH_TEST);
-    glClearColor(0.2f, 0.2f, 0.2f, 0.2f); // pastel pink background
+    glClearColor(0.2f, 0.2f, 0.2f, 0.2f); // gray bg
 
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
