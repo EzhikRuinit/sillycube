@@ -7,6 +7,7 @@ preview of the program:
 ## how to build?
 run 
 ```bash 
+sudo dnf in gcc mesa-libGL-devel glfw-devel glew-devel mesa-libGL-devel glfw-devel glew-devel
 ./compile.sh
 ```
 
