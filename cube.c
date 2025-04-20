@@ -33,7 +33,7 @@ GLuint load_texture(const char* filename) {
 void draw_cube(GLuint tex, float size) {
     glEnable(GL_TEXTURE_2D);
     glBindTexture(GL_TEXTURE_2D, tex);
-    glColor4f(1.0f, 1.0f, 1.0f, 1.0f); // pastel pinkish gray, slightly transparent
+    glColor4f(1.0f, 1.0f, 1.0f, 1.0f); // cube color
 
     float s = size;
 
