@@ -13,7 +13,7 @@ sudo dnf in gcc mesa-libGL-devel glfw-devel glew-devel mesa-libGL-devel glfw-dev
 
 you can launch the cube maunally by
 ```
-./cube --image /path/to/image --title "Example Title"
+./cube --image /path/to/image --size x.x --title "Example Title"
 ```
 or with python launcher
 ```
